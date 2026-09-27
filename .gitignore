@@ -1,0 +1,36 @@
+
+# BEGIN local privacy protection
+# Store private files here at any project depth.
+local-private/
+# Local environment files (keep sanitized templates shareable).
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.envrc
+# Credentials and connection settings.
+.npmrc
+.pypirc
+.netrc
+.git-credentials
+credentials.json
+credentials.local.*
+secrets.json
+secrets.yaml
+secrets.yml
+secrets.local.*
+connections.local.*
+config.local.*
+appsettings.Local.json
+# Private keys and certificate bundles.
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+# END local privacy protection
+
+# Locally installed or downloaded third-party libraries.
+third-party/
